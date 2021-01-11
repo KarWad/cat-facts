@@ -3,7 +3,7 @@
 
 (defn- present-fact [fact] (println fact))
 
-(defrecord CmdPresenter
+(defrecord CmdPresenter []
   e/Presenter
   (-present-fact [_ fact] (present-fact fact)))
 

@@ -1,3 +1,4 @@
+
 (defproject cat-facts "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
@@ -6,6 +7,7 @@
 
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.clojure/data.json "1.0.0"]
+                 [mount "0.1.16"]
                  [clj-http "3.10.3"]]
 
   :main ^:skip-aot cat-facts.core
